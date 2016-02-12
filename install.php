@@ -126,7 +126,7 @@ $adminPassword = md5($adminPassword);
 $data = mysql_query("INSERT INTO users (username,password) VALUES ('$adminUsername', '$adminPassword')") 
 or die(mysql_error());
 
-echo'<div style="background-color:white;outline:1px solid black"><p>Installation Complete! Make sure to delete this installation file. <a href="/admin/">Click here to go to the admin page.</a></p></div>';
+echo'<div style="background-color:white;outline:1px solid black"><p>Installation Complete! Make sure to delete this installation file. <a href="./admin/">Click here to go to the admin page.</a></p></div>';
 	
 }
 ?>
