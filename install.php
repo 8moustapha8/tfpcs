@@ -221,8 +221,8 @@ echo'<div style="background-color:white;outline:1px solid black"><p>Installation
 				</tr>
 				<tr>
 					<td>Logo</td>
-					<td><input class="fancyText" type="text" placeholder="company name" name="logoLocation" required /></td>
-					<td>Enter the location of your logo eg:http://infinity360.co.uk/logo.png</td>
+					<td><input class="fancyText" type="text" placeholder="company name" name="logoLocation" value="./img/logo.png" required /></td>
+					<td>Enter the location of your logo eg:http://infinity360.co.uk/logo.png. Leave it as the default to use the default logo.</td>
 				</tr>
 				<tr>
 					<td>Admin  username</td>
